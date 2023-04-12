@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flight</title>
+    <link rel="stylesheet" href="mainpage.css">
+    <script src="mainpage.js" async></script>
+    <style>
+        .container{
+            background-color: aqua;
+            display: grid;
+            height: 100%;
+        }
+        .mainimg{
+            width: 320px;
+            height: 318px;
+        }
+        .partbox{
+            display:inline-block;
+            cursor: pointer;
+        }
+        body {
+        height: 100%;
+        margin: 0;
+        }
+        .logo{
+            height: 100px;
+            width: 100px;
+            display:inline-block;
+            cursor: pointer;
+        }
+        h1{
+            display:inline-block;
+            height:100px;
+            width:100px
+        }
+        .shpcr{
+            height:100px;
+            width:100px;
+            display: inline-block;
+            
+        }
+        .shpicon{
+            display: inline;
+            float:right
+        }
+        .purchasepart{
+            text-align: center;
+        }
+        .flexbox{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    </style>
+<body>
+<head>
+</head>
+    <div class="container">
+        <div class="headbar">
+            <div onclick="location.href='mainpage.html';" class="home">
+                <img src="mainImage/DartLogo.png" class="logo" >
+                <h1>COOPERDART</h1>
+                <div  class="shpicon" onclick="location.href='shpcart.html';">
+                <input name="shpcar" type="image" src="mainImage/shopcarticon.png" class="shpcr" >
+                </div>
+                
+                
+            </div>
+            <div class="flexbox">
+                <div class="flexbox">
+                    <div class="item">
+                        <span class="itemname">FLIGHT01</span>
+                        <img class="itemimg img" src="flightimage/flight01.jpg">
+                        <div class="shop-item-details">
+                            <span class="itemprice">$11.99</span>
+                            <button herf="#" class="button buynow" type="button">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span class="itemname">FLIGHT02</span>
+                        <img class="itemimg img" src="flightimage/flight02.png">
+                        <div class="shop-item-details">
+                            <span class="itemprice">$11.99</span>
+                            <button herf="#" class="button buynow" type="button">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span class="itemname">FLIGHT03</span>
+                        <img class="itemimg img" src="flightimage/flight03.png">
+                        <div class="shop-item-details">
+                            <span class="itemprice">$11.99</span>
+                            <button herf="#" class="button buynow" type="button">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span class="itemname">FLIGHT04</span>
+                        <img class="itemimg img" src="flightimage/flight04.png">
+                        <div class="shop-item-details">
+                            <span class="itemprice">$11.99</span>
+                            <button herf="#" class="button buynow" type="button">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span class="itemname">FLIGHT05</span>
+                        <img class="itemimg img" src="flightimage/flight05.png">
+                        <div class="shop-item-details">
+                            <span class="itemprice">$11.99</span>
+                            <button herf="#" class="button buynow" type="button">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span class="itemname">FLIGHT06</span>
+                        <img class="itemimg img" src="flightimage/flight06.png">
+                        <div class="shop-item-details">
+                            <span class="itemprice">$11.99</span>
+                            <button herf="#" class="button buynow" type="button">Buy now</button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </body>
+    
+    </html>
+
+

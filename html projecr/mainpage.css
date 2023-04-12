@@ -1,0 +1,227 @@
+.container{
+    background-color: aqua;
+    display: grid;
+    height: 100%;
+}
+.mainimg{
+    width: 320px;
+    height: 318px;
+}
+.partbox{
+    display:inline-block;
+    cursor: pointer;
+}
+body {
+height: 100%;
+margin: 0;
+}
+h1{
+    display:inline-block;
+    height:100px;
+    width:100px
+}
+.shpcr{
+    height:100px;
+    width:100px;
+    display: inline-block;
+    
+}
+.purchasepart{
+    text-align: center;
+}
+.mainimg{
+    width: 320px;
+    height: 318px;
+}
+.partbox{
+    display:inline-block;
+    cursor: pointer;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    display:inline-block;
+    cursor: pointer;
+}
+h1{
+    display:inline-block;
+    height:100px;
+    width:100px
+}
+.shpicon{
+    display: inline;
+    float:right
+
+}
+    .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #555;
+    color: #fff;
+}
+        /* Reset styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+          
+          /* Global styles */
+          body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            height: 100vh;
+          }
+          
+          a {
+            text-decoration: none;
+          }
+          
+          /* Header styles */
+          .header {
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1;
+          }
+          
+          .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+          }
+          
+          .logo {
+            display: flex;
+            align-items: center;
+          }
+          
+          .logo img {
+            height: 60px;
+            margin-right: 10px;
+          }
+          
+          .logo h1 {
+            font-size: 28px;
+            font-weight: 700;
+          }
+          
+          .cart img {
+            height: 40px;
+          }
+          
+          /* Main styles */
+          .main {
+            max-width: 1200px;
+            margin: 100px auto 0;
+          }
+          
+          .heading {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 30px;
+            text-align: center;
+          }
+          
+          .tips {
+            display: grid;
+            grid-template-columns: repeat
+          }
+          .container {
+            background-color: aqua;
+            display: grid;
+            height: auto;
+        }
+        .mainimg {
+            width: 320px;
+            height: 318px;
+        }
+        .partbox {
+            display: inline-block;
+            cursor: pointer;
+        }
+        .logo {
+            height: 100px;
+            width: 100px;
+        }
+        h1 {
+            display: inline;
+        }
+        .shpcr {
+            height: 100px;
+            width: 100px;
+            display: inline-block;
+        }
+        .purchase-part {
+            text-align: center;
+        }
+        .heatsell{
+            margin-top: 150px;
+        }
+      .mainimg{
+          width: 320px;
+          height: 318px;
+      }
+      .partbox{
+          display:inline-block;
+          cursor: pointer;
+      }
+      .logo{
+          height: 100px;
+          width: 100px;
+          display:inline-block;
+          cursor: pointer;
+      }
+      h1{
+          display:inline-block;
+          height:100px;
+          width:100px
+      }
+      .shpcr{
+          height:100px;
+          width:100px;
+          display: inline-block;
+          
+      }
+      .shpicon{
+          display: inline;
+          float:right
+
+      }
+      .flexbox{
+          margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+      }
+      .item {
+          display: flex;
+          margin-left: 1cm;
+          margin-right: 1cm;
+          width: 350px;
+          height: 450px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);}
+    

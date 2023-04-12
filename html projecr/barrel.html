@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>barrel</title>
+    <link rel="stylesheet" href="mainpage.css">
+    <script src="mainpage.js" async></script>
+    <style>
+        .container{
+            background-color: aqua;
+            display: grid;
+            height: 100%;
+        }
+        .mainimg{
+            width: 320px;
+            height: 318px;
+        }
+        .partbox{
+            display:inline-block;
+            cursor: pointer;
+        }
+        body {
+        height: 100%;
+        margin: 0;
+        }
+        .logo{
+            height: 100px;
+            width: 100px;
+            display:inline-block;
+            cursor: pointer;
+        }
+        h1{
+            display:inline-block;
+            height:100px;
+            width:100px
+        }
+        .shpcr{
+            height:100px;
+            width:100px;
+            display: inline-block;
+            
+        }
+        .shpicon{
+            display: inline;
+            float:right
+        }
+        .purchasepart{
+            text-align: center;
+        }
+        .flexbox{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    </style>
+<body>
+<head>
+</head>
+    <div class="container">
+        <div class="container">
+            <div class="headbar">
+                <div>
+                    <img src="mainImage/DartLogo.png" class="logo" onclick="location.href='mainpage.html';">
+                    <h1 onclick="location.href='mainpage.html';" class="logo">COOPERDART</h1>
+                    <div  class="shpicon" onclick="location.href='shpcart.html';">
+                    <input name="shpcar" type="image" src="mainImage/shopcarticon.png" class="shpcr" >
+                    </div>
+                    
+                    
+                </div>
+
+                <div class="flexbox">
+                    <div class="item">
+                        <span class="itemname">BARREL01</span>
+                        <img class="itemimg img" src="barrelimage/barrel01.jpg">
+                        <div class="shop-item-details">
+                            <span class="itemprice">$11.99</span>
+                            <button herf="#" class="button buynow" type="button">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span class="itemname">BARREL02</span>
+                        <img class="itemimg img" src="barrelimage/barrel02.jpg">
+                        <div class="shop-item-details">
+                            <span class="itemprice">$11.99</span>
+                            <button herf="#" class="button buynow" type="button">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span class="itemname">BARREL03</span>
+                        <img class="itemimg img" src="barrelimage/barrel03.jpg">
+                        <div class="shop-item-details">
+                            <span class="itemprice">$11.99</span>
+                            <button herf="#" class="button buynow" type="button">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span class="itemname">BARREL04</span>
+                        <img class="itemimg img" src="barrelimage/barrel04.jpg">
+                        <div class="shop-item-details">
+                            <span class="itemprice">$11.99</span>
+                            <button herf="#" class="button buynow" type="button">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span class="itemname">BARREL05</span>
+                        <img class="itemimg img" src="barrelimage/barrel05.jpg">
+                        <div class="shop-item-details">
+                            <span class="itemprice">$11.99</span>
+                            <button herf="#" class="button buynow" type="button">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span class="itemname">BARREL06</span>
+                        <img class="itemimg img" src="barrelimage/barrel06.jpg">
+                        <div class="shop-item-details">
+                            <span class="itemprice">$11.99</span>
+                            <button herf="#" class="button buynow" type="button">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="container content-section">
+                <h2 class="section-header">CART</h2>
+                <div class="cart-row">
+                    <span class="cart-item cart-header cart-column">ITEM</span>
+                    <span class="cart-price cart-header cart-column">PRICE</span>
+                    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                </div>
+                <div class="cart-items">
+                </div>
+                <div class="cart-total">
+                    <strong class="cart-total-title">Total</strong>
+                    <span class="cart-total-price">$0</span>
+                </div>
+                <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+            </section>
+    </body>
+    
+    </html>
